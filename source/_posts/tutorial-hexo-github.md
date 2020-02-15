@@ -1,13 +1,13 @@
----
 title: Hexo+GitHub快速搭建博客
+categories:
+  - Web大前端
+  - Tool
 date: 2020-02-10 22:17:52
-categories: 
-    - Web大前端
-    - Tool
 ---
 在学习搭建博客的过程中参考的资料和遇到的问题，大神们的教程让我受益匪浅，特别收集了这些参考教程希望给大家带去方便。
 
 ## Hexo+GitHub参考资料
+#### 搭建教程
 
 [基于Hexo和Github搭建博客](https://segmentfault.com/a/1190000007818658#item-5)——超级详细，一步一步手把手式教学
 
@@ -19,7 +19,14 @@ categories:
 
 [hexo主题库](https://github.com/hexojs/hexo/wiki/Themes)——Hexo的主题😢
 
-## 可能遇见的问题
+#### 博客搭建深入系列--待实践
+[在Hexo主题中新添加resume布局](http://www.pianshen.com/article/8390227294/)  
+[Hexo 个人博客 SEO 优化](https://juejin.im/post/5ae7fc18518825672565a7f0)  
+[Hexo 搭建个人博客](https://blog.csdn.net/qq_32767041/article/details/103267112)  
+[Hexo博客实现首页和子页面不同layout布局](https://my.oschina.net/u/3372900/blog/911534)
+
+
+#### 可能遇见的问题
 
 ##### 1.GitHub Pages 404 问题
 
