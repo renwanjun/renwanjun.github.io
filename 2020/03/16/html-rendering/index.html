@@ -6,17 +6,21 @@
     
 
     
-    <title>标签: css | 任婉君的博客</title>
+    <title>html-rendering | 任婉君的博客</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <meta name="description" content="从前车马很慢 生活很远">
-<meta property="og:type" content="website">
-<meta property="og:title" content="任婉君的博客">
-<meta property="og:url" content="http://renwanjun.com/tags/css/index.html">
+    <meta name="keywords" content="" />
+    
+    <meta name="description" content="浏览器渲染基本流程GUI渲染进程1.解析html文本并构建DOM tree2.解析CSS样式表并构建CSSOM tree3.根据DOM tree和CSSOM tree构建Render tree4.根据Render tree信息进行布局处理(layout)5.对页面元素进行绘制(painting) 解析(Parsing)解析的过程分为两个步骤：词法分析（Lexical Analysis）和语法分析(">
+<meta property="og:type" content="article">
+<meta property="og:title" content="html-rendering">
+<meta property="og:url" content="http://renwanjun.com/2020/03/16/html-rendering/index.html">
 <meta property="og:site_name" content="任婉君的博客">
-<meta property="og:description" content="从前车马很慢 生活很远">
+<meta property="og:description" content="浏览器渲染基本流程GUI渲染进程1.解析html文本并构建DOM tree2.解析CSS样式表并构建CSSOM tree3.根据DOM tree和CSSOM tree构建Render tree4.根据Render tree信息进行布局处理(layout)5.对页面元素进行绘制(painting) 解析(Parsing)解析的过程分为两个步骤：词法分析（Lexical Analysis）和语法分析(">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-03-16T05:02:20.000Z">
+<meta property="article:modified_time" content="2020-03-16T08:47:08.715Z">
 <meta property="article:author" content="renwanjun">
 <meta name="twitter:card" content="summary">
     
@@ -145,73 +149,164 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    <i class="icon fa fa-tag"></i>标签: <em>css</em>
+    未分类
     </h1>
 </div>
 
                         <div class="main-body-content">
-                            
-
-    
-    
+                            <article id="post-html-rendering" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
         
-        
-        <section class="archives-wrap">
-            <div class="archive-year-wrap">
-                <a href="/archives/2020" class="archive-year"><i class="icon fa fa-calendar-o"></i>2020</a>
-            </div>
-            <div class="archives">
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2020/02/10/css-box/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://renwanjun.com/2020/02/10/css-box/">0</span>
-    
-</span>
-
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/categories/Web%E5%A4%A7%E5%89%8D%E7%AB%AF/">Web大前端</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/Web%E5%A4%A7%E5%89%8D%E7%AB%AF/CSS%E4%B8%96%E7%95%8C/">CSS世界</a>
-            </div>
-            <div class="date"><time datetime="2020-02-10T13:14:48.000Z" itemprop="datePublished">2020-02-10</time></div>
-        </div>
-        
+            <header class="article-header">
+                
     
         <h1 class="article-title" itemprop="name">
-        <a href="/2020/02/10/css-box/">盒尺寸四大家族</a>
+        html-rendering
         </h1>
     
 
-        <p class="article-excerpt">
-            
-        </p>
+            </header>
+        
+        
+            <div class="article-meta">
+                
+    <div class="article-date">
+      <i class="fa fa-calendar"></i>
+      <a href="/2020/03/16/html-rendering/" class="article-date">
+         <time datetime="2020-03-16T05:02:20.000Z" itemprop="datePublished">2020-03-16</time>
+      </a>
     </div>
-</article>
-    
+
+
+                
+
+                
+                
+
+                
+
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            <h1 id="浏览器渲染基本流程"><a href="#浏览器渲染基本流程" class="headerlink" title="浏览器渲染基本流程"></a>浏览器渲染基本流程</h1><p>GUI渲染进程<br>1.解析html文本并构建DOM tree<br>2.解析CSS样式表并构建CSSOM tree<br>3.根据DOM tree和CSSOM tree构建Render tree<br>4.根据Render tree信息进行布局处理(layout)<br>5.对页面元素进行绘制(painting)</p>
+<h3 id="解析-Parsing"><a href="#解析-Parsing" class="headerlink" title="解析(Parsing)"></a>解析(Parsing)</h3><p>解析的过程分为两个步骤：词法分析（Lexical Analysis）和语法分析(Syntax Analysis)。<br>词法分析负责将输入内容分解成一个个有效标记；而语法分析负责根据语言的语法规则分析文档的结构，从而构建解析树(Parse Tree)。通过词法分析可以将无关的字符（比如空格和换行符）分离出来。</p>
+<h3 id="处理脚本和样式表的顺序"><a href="#处理脚本和样式表的顺序" class="headerlink" title="处理脚本和样式表的顺序"></a>处理脚本和样式表的顺序</h3><p>当浏览器碰到script脚本的时候</p>
+<blockquote>
+<blockquote>
+<blockquote>
+</blockquote>
+<p>1.<script src="script.js"></script></p>
+</blockquote>
+</blockquote>
+<p>没有 defer 或 async，浏览器会立即加载并执行指定的脚本，“立即”指的是在渲染该 script 标签之下的文档元素之前，也就是说不等待后续载入的文档元素，读到就加载并执行。</p>
+<p>2.<script async src="script.js"></script></p>
+<p>有 async，加载和渲染后续文档元素的过程将和 script.js 的加载与执行并行进行（异步）。</p>
+<p>3.<script defer src="myscript.js"></script></p>
+<p>有 defer，加载后续文档元素的过程将和 script.js 的加载并行进行（异步），但是 script.js 的执行要在所有元素解析完成之后，DOMContentLoaded 事件触发之前完成。</p>
+<h3 id="脚本阻塞"><a href="#脚本阻塞" class="headerlink" title="脚本阻塞"></a>脚本阻塞</h3><h3 id="CSS的阻塞"><a href="#CSS的阻塞" class="headerlink" title="CSS的阻塞"></a>CSS的阻塞</h3>
         </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="http://renwanjun.com/2020/03/16/html-rendering/" data-id="ck7u048dg00096yqnh2bhaz4g" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "author": {
+            "@type": "Person",
+            "name": "renwanjun"
+        },
+        "headline": "html-rendering",
+        "image": "http://renwanjun.com",
+        "keywords": "",
+        "genre": "",
+        "datePublished": "2020-03-16",
+        "dateCreated": "2020-03-16",
+        "dateModified": "2020-03-16",
+        "url": "http://renwanjun.com/2020/03/16/html-rendering/",
+        "description": "浏览器渲染基本流程GUI渲染进程1.解析html文本并构建DOM tree2.解析CSS样式表并构建CSSOM tree3.根据DOM tree和CSSOM tree构建Render tree4.根据Render tree信息进行布局处理(layout)5.对页面元素进行绘制(painting)
+解析(Parsing)解析的过程分为两个步骤：词法分析（Lexical Analysis）和语法分析(",
+        "wordCount": 49
+    }
+</script>
+
+</article>
+
+    <section id="comments">
     
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
+    </div>
 
 
-    </div></section>
+    
+    </section>
 
 
 
@@ -273,6 +368,29 @@
             
         </ul>
     </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2020/03/16/web-interview-subjects/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">下一篇</strong>
+        <p class="article-nav-title">
+        
+            前端面试题汇总
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+        <a href="/2020/03/12/js-event-loop/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">上一篇</strong>
+        <p class="article-nav-title">JavaScript事件循环机制</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
     
     <div class="widgets-container">
         
@@ -483,11 +601,13 @@
     var disqus_shortname = 'hexo-theme-hueman';
     
     
+    var disqus_url = 'http://renwanjun.com/2020/03/16/html-rendering/';
+    
     (function() {
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
     </script>

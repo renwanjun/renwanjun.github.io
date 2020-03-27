@@ -6,17 +6,21 @@
     
 
     
-    <title>标签: css | 任婉君的博客</title>
+    <title>执行环境和作用域 | 任婉君的博客</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <meta name="description" content="从前车马很慢 生活很远">
-<meta property="og:type" content="website">
-<meta property="og:title" content="任婉君的博客">
-<meta property="og:url" content="http://renwanjun.com/tags/css/index.html">
+    <meta name="keywords" content="" />
+    
+    <meta name="description" content="基本概念基本类型值：简单的数据段引用类型值：可能由多个值构成的对象传递参数：按值传递检测类型：  typeof 检测基本数据类型的最佳工具instanceof 检测对象构造函数的最佳工具根据规定，所有引用类型的的值都是Object的实例  执行环境与作用域执行环境（execution context）是JavaScript中的一个重要概念。定义：执行环境定义了变量或函数有权访问的其它数据，决定了它">
+<meta property="og:type" content="article">
+<meta property="og:title" content="执行环境和作用域">
+<meta property="og:url" content="http://renwanjun.com/2020/02/25/js-environment/index.html">
 <meta property="og:site_name" content="任婉君的博客">
-<meta property="og:description" content="从前车马很慢 生活很远">
+<meta property="og:description" content="基本概念基本类型值：简单的数据段引用类型值：可能由多个值构成的对象传递参数：按值传递检测类型：  typeof 检测基本数据类型的最佳工具instanceof 检测对象构造函数的最佳工具根据规定，所有引用类型的的值都是Object的实例  执行环境与作用域执行环境（execution context）是JavaScript中的一个重要概念。定义：执行环境定义了变量或函数有权访问的其它数据，决定了它">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-02-25T09:11:04.000Z">
+<meta property="article:modified_time" content="2020-02-27T07:32:59.422Z">
 <meta property="article:author" content="renwanjun">
 <meta name="twitter:card" content="summary">
     
@@ -145,73 +149,160 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    <i class="icon fa fa-tag"></i>标签: <em>css</em>
+    <a class="page-title-link" href="/categories/Web%E5%A4%A7%E5%89%8D%E7%AB%AF/">Web大前端</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="/categories/Web%E5%A4%A7%E5%89%8D%E7%AB%AF/JavaScript%E5%90%8E%E8%8A%B1%E5%9B%AD/">JavaScript后花园</a>
     </h1>
 </div>
 
                         <div class="main-body-content">
-                            
-
-    
-    
+                            <article id="post-js-environment" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
         
-        
-        <section class="archives-wrap">
-            <div class="archive-year-wrap">
-                <a href="/archives/2020" class="archive-year"><i class="icon fa fa-calendar-o"></i>2020</a>
-            </div>
-            <div class="archives">
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2020/02/10/css-box/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://renwanjun.com/2020/02/10/css-box/">0</span>
-    
-</span>
-
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/categories/Web%E5%A4%A7%E5%89%8D%E7%AB%AF/">Web大前端</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/Web%E5%A4%A7%E5%89%8D%E7%AB%AF/CSS%E4%B8%96%E7%95%8C/">CSS世界</a>
-            </div>
-            <div class="date"><time datetime="2020-02-10T13:14:48.000Z" itemprop="datePublished">2020-02-10</time></div>
-        </div>
-        
+            <header class="article-header">
+                
     
         <h1 class="article-title" itemprop="name">
-        <a href="/2020/02/10/css-box/">盒尺寸四大家族</a>
+        执行环境和作用域
         </h1>
     
 
-        <p class="article-excerpt">
-            
-        </p>
+            </header>
+        
+        
+            <div class="article-meta">
+                
+    <div class="article-date">
+      <i class="fa fa-calendar"></i>
+      <a href="/2020/02/25/js-environment/" class="article-date">
+         <time datetime="2020-02-25T09:11:04.000Z" itemprop="datePublished">2020-02-25</time>
+      </a>
     </div>
-</article>
-    
+
+
+                
+
+                
+                
+
+                
+
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            <h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><p>基本类型值：简单的数据段<br>引用类型值：可能由多个值构成的对象<br>传递参数：按值传递<br>检测类型：</p>
+<blockquote>
+<p><code>typeof</code> 检测基本数据类型的最佳工具<br><code>instanceof</code> 检测对象构造函数的最佳工具<br>根据规定，所有引用类型的的值都是Object的实例</p>
+</blockquote>
+<h1 id="执行环境与作用域"><a href="#执行环境与作用域" class="headerlink" title="执行环境与作用域"></a>执行环境与作用域</h1><p>执行环境（execution context）是JavaScript中的一个重要概念。<br>定义：执行环境定义了变量或函数有权访问的其它数据，决定了它们各自的行为。每个执行环境都有一个与之关联的<strong>变量对象</strong>，环境中定义的所有变量和函数都保存在这个对象中。</p>
+<p>作用域链<br>定义：当代码在一个环境中执行时，会创建变量对象的一个作用域链。作用域链的前端始终都是当前执行的代码所在环境的变量对象；全局执行环境始终是作用域链中的最后一个对象。</p>
+<h1 id="垃圾收集机制"><a href="#垃圾收集机制" class="headerlink" title="垃圾收集机制"></a>垃圾收集机制</h1><p>JavaScript具有 <strong><em>自动垃圾收集机制</em></strong> ，也就是说执行环境会负责管理代码执行过程中使用的内存。</p>
+<p>原理：找出那些不再使用的变量，然后释放其内存。</p>
+
         </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="http://renwanjun.com/2020/02/25/js-environment/" data-id="ck74fljew0001ghqn5xp4b9lo" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "author": {
+            "@type": "Person",
+            "name": "renwanjun"
+        },
+        "headline": "执行环境和作用域",
+        "image": "http://renwanjun.com",
+        "keywords": "",
+        "genre": "Web大前端 JavaScript后花园",
+        "datePublished": "2020-02-25",
+        "dateCreated": "2020-02-25",
+        "dateModified": "2020-02-27",
+        "url": "http://renwanjun.com/2020/02/25/js-environment/",
+        "description": "基本概念基本类型值：简单的数据段引用类型值：可能由多个值构成的对象传递参数：按值传递检测类型：
+
+typeof 检测基本数据类型的最佳工具instanceof 检测对象构造函数的最佳工具根据规定，所有引用类型的的值都是Object的实例
+
+执行环境与作用域执行环境（execution context）是JavaScript中的一个重要概念。定义：执行环境定义了变量或函数有权访问的其它数据，决定了它",
+        "wordCount": 18
+    }
+</script>
+
+</article>
+
+    <section id="comments">
     
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
+    </div>
 
 
-    </div></section>
+    
+    </section>
 
 
 
@@ -273,6 +364,29 @@
             
         </ul>
     </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2020/02/27/the-best-coding/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">下一篇</strong>
+        <p class="article-nav-title">
+        
+            最佳实践
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+        <a href="/2020/02/25/JavaScript%E4%B9%8B%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">上一篇</strong>
+        <p class="article-nav-title">JavaScript之数据类型</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
     
     <div class="widgets-container">
         
@@ -483,11 +597,13 @@
     var disqus_shortname = 'hexo-theme-hueman';
     
     
+    var disqus_url = 'http://renwanjun.com/2020/02/25/js-environment/';
+    
     (function() {
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
     </script>
