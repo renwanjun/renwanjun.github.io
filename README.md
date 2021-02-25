@@ -1,3 +1,5 @@
+博客访问地址
+https://renwanjun.github.io
 ## 命令
 
 本地启动 `hexo s`
