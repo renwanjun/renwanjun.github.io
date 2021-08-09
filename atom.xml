@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Miss Ren&#39;s BLOG</title>
+  
+  
+  <link href="http://renwanjun.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://renwanjun.github.io/"/>
+  <updated>2021-08-09T01:50:00.583Z</updated>
+  <id>http://renwanjun.github.io/</id>
+  
+  <author>
+    <name>renwanjun</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://renwanjun.github.io/2021/08/09/hello-world/"/>
+    <id>http://renwanjun.github.io/2021/08/09/hello-world/</id>
+    <published>2021-08-09T01:50:00.583Z</published>
+    <updated>2021-08-09T01:50:00.583Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>es6-generator</title>
+    <link href="http://renwanjun.github.io/2021/02/26/es6-generator/"/>
+    <id>http://renwanjun.github.io/2021/02/26/es6-generator/</id>
+    <published>2021-02-26T10:39:18.000Z</published>
+    <updated>2021-02-26T10:39:18.000Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Promise对象</title>
+    <link href="http://renwanjun.github.io/2021/02/26/es6-promise/"/>
+    <id>http://renwanjun.github.io/2021/02/26/es6-promise/</id>
+    <published>2021-02-26T10:10:07.000Z</published>
+    <updated>2021-02-26T10:35:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>dddweishenmeichulaine </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;dddweishenmeichulaine &lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>browser-xnyh</title>
+    <link href="http://renwanjun.github.io/2020/04/21/browser-xnyh/"/>
+    <id>http://renwanjun.github.io/2020/04/21/browser-xnyh/</id>
+    <published>2020-04-21T02:49:28.000Z</published>
+    <updated>2020-04-21T02:50:43.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://github.com/LuckyWinty/blog/blob/master/markdown/perf/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E4%B9%8B%E8%87%AA%E5%AE%9A%E4%B9%89%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87%E5%8F%8A%E4%B8%8A%E6%8A%A5%E6%96%B9%E6%B3%95%E8%AF%A6%E8%A7%A3.md">https://github.com/LuckyWinty/blog/blob/master/markdown/perf/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E4%B9%8B%E8%87%AA%E5%AE%9A%E4%B9%89%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87%E5%8F%8A%E4%B8%8A%E6%8A%A5%E6%96%B9%E6%B3%95%E8%AF%A6%E8%A7%A3.md</a></p><p><a href="https://github.com/LuckyWinty/blog/blob/master/markdown/perf/%E4%B8%80%E6%96%87%E5%AD%A6%E4%BC%9A%E5%88%A9%E7%94%A8Chrome%20Dev%20Tools%20%E8%BF%9B%E8%A1%8C%E9%A1%B5%E9%9D%A2%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90.md">https://github.com/LuckyWinty/blog/blob/master/markdown/perf/%E4%B8%80%E6%96%87%E5%AD%A6%E4%BC%9A%E5%88%A9%E7%94%A8Chrome%20Dev%20Tools%20%E8%BF%9B%E8%A1%8C%E9%A1%B5%E9%9D%A2%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90.md</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/LuckyWinty/blog/blob/master/markdown/perf/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E4%B9%8B%E8%</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>H5原生拖放</title>
+    <link href="http://renwanjun.github.io/2020/04/17/h5-native-drag-drop/"/>
+    <id>http://renwanjun.github.io/2020/04/17/h5-native-drag-drop/</id>
+    <published>2020-04-17T04:37:02.000Z</published>
+    <updated>2020-04-17T09:25:46.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="原生拖放的事件"><a href="#原生拖放的事件" class="headerlink" title="原生拖放的事件"></a>原生拖放的事件</h1><ul><li>ie4:最早在网页中引入JavaScript拖放功能。当时在网页中只有两种对象可以拖放： 图像和某些文本。唯一有效的放置目标是文本框</li><li>ie5：拖放功能得到扩展，添加了新的事件，而且几乎网页中的任何元素都可以作为放置目标</li><li>ie5.5:让网页中的任何元素都可以拖放</li></ul><p>HTML5以IE的实例为基础制定了拖放的规范，Firefox3.5、Safari4+和Chrome也根据HTML5规范实现了原生了拖放功能。可以在框架间、窗口见，甚至在应用间拖放元素。</p><hr><h2 id="拖放事件"><a href="#拖放事件" class="headerlink" title="拖放事件"></a>拖放事件</h2><p>拖动某元素时，将依次触发下列事件：</p><ol><li>dragstart</li><li>drag</li><li>dragend</li></ol><p>当某个元素被拖动到一个有效的放置目标上时，下列事件会一次发生：</p><ol><li>dragenter</li><li>dragover</li><li>dragleave or drop</li></ol><h2 id="可拖动draggable"><a href="#可拖动draggable" class="headerlink" title="可拖动draggable"></a>可拖动draggable</h2><p>默认情况下，图像、链接和文本是可以拖动的。文本只有在被选中的情况下才能被拖动，而图像和链接在任何时候都可以拖动。<br>让其它元素可拖动，H5为所有元素规定了一个draggable属性，表示元素是否可以拖动。要想让其它元素可拖动，或者让图像或链接不能土洞，都可以设置这个属性。<br>例如：</p><pre><code>&lt;!-- 让这个图像不可拖动 --&gt;&lt;img alt=&quot;Smiley face&quot; draggable=&quot;false&quot; src=&quot;smile.gif&quot;&gt;&lt;!-- 让这个元素可以拖动 --&gt;&lt;div draggable=&quot;true&quot;&gt;...&lt;div&gt;</code></pre><blockquote><p>兼容性</p><ul><li>为了让FireFox支持拖动属性，还必须添加一个obdragstart事件处理程序，并在dataTransfer对象中保存一些信息。</li><li>在IE9及更早版本中，通过mousedown事件处理程序调用dragDrop()能够让任何元素可拖动。</li><li>而在Safari4及之前版本中，必须额外给相应元素设置CSS样式<code>-khtml-user-drag:element</code>.</li></ul></blockquote><h2 id="自定义放置目标"><a href="#自定义放置目标" class="headerlink" title="自定义放置目标"></a>自定义放置目标</h2><p>虽然所有元素都支持放置目标事件，但这些元素默认是不允许放置的。如果拖动元素经过不允许放置的元素，无论用户如何操作都不会发生drop事件。不过可以将任何元素变成有效的放置目标，方法是重写dragenter和dragover事件的默认行为。例如，假设又一个ID为“droptarget”的&lt;div&gt;元素,可以用如下代码将它变成一个放置目标：</p><pre><code>var droptarget=document.getElementBtId(&#39;droptarget&#39;);droptarget.addEventListener(&#39;dragenter&#39;,function(event)&#123;    event.preventDefault()&#125;)droptarget.addEventListener(&#39;dragover&#39;,function(event)&#123;    event.preventDefault()&#125;)</code></pre><blockquote><p>FireFox3.5+中，放置事件（drop）的默认行为是打开被放到拖置目标上的URL。换句话说，如果是把图像拖放到放置目标上，页面就会转向图像文件；而如果是把文本拖放到放置目标上，则会导致无效的URL错误。因此，为了让FireFox支持正常的拖放，还需要取消drop事件的默认行为，阻止它打开URL。</p></blockquote><h2 id="dataTransfer对象"><a href="#dataTransfer对象" class="headerlink" title="dataTransfer对象"></a>dataTransfer对象</h2><h3 id="getData-和setData-方法"><a href="#getData-和setData-方法" class="headerlink" title="getData()和setData()方法"></a>getData()和setData()方法</h3><ul><li>getData()</li><li>setData()</li></ul><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 设置和接受文本数据</span></span><br></pre></td></tr></table></figure><h3 id="dropEffect和effectAllowed属性"><a href="#dropEffect和effectAllowed属性" class="headerlink" title="dropEffect和effectAllowed属性"></a>dropEffect和effectAllowed属性</h3><blockquote><p>dropEffect属性可以知道被拖动的元素能够执行哪种放置行为。</p></blockquote><ul><li>“none”</li><li>“move”</li><li>“copy”</li><li>“link”<blockquote><p>要使用dropEffect属性，必须在ondragenter事件处理程序中针对放置目标来设置。dropEffect属性只有搭配effectAllowed属性才有用。<br>effectAllowed属性表示允许拖动元素的哪种dropEffect.</p></blockquote></li></ul><blockquote><p>必须在ondragstart事件处理程序中设置effectAllowed</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;原生拖放的事件&quot;&gt;&lt;a href=&quot;#原生拖放的事件&quot; class=&quot;headerlink&quot; title=&quot;原生拖放的事件&quot;&gt;&lt;/a&gt;原生拖放的事件&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;ie4:最早在网页中引入JavaScript拖放功能。当时在网页中只有两种对象可以拖放：</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>browser-garbage-collection</title>
+    <link href="http://renwanjun.github.io/2020/04/17/browser-garbage-collection/"/>
+    <id>http://renwanjun.github.io/2020/04/17/browser-garbage-collection/</id>
+    <published>2020-04-17T03:15:19.000Z</published>
+    <updated>2020-04-17T03:21:17.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="浏览器垃圾回收机制"><a href="#浏览器垃圾回收机制" class="headerlink" title="浏览器垃圾回收机制"></a>浏览器垃圾回收机制</h1><p>引用计数算法<br>标记清楚算法</p><p>将不再使用的对象——标记为无法到达的对象</p><h2 id="内存泄漏"><a href="#内存泄漏" class="headerlink" title="内存泄漏"></a>内存泄漏</h2><p>常见的内存泄漏和DOM引用有关</p><h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;浏览器垃圾回收机制&quot;&gt;&lt;a href=&quot;#浏览器垃圾回收机制&quot; class=&quot;headerlink&quot; title=&quot;浏览器垃圾回收机制&quot;&gt;&lt;/a&gt;浏览器垃圾回收机制&lt;/h1&gt;&lt;p&gt;引用计数算法&lt;br&gt;标记清楚算法&lt;/p&gt;
+&lt;p&gt;将不再使用的对象——标记为无法到达的</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>焦点管理</title>
+    <link href="http://renwanjun.github.io/2020/04/03/dom-focus/"/>
+    <id>http://renwanjun.github.io/2020/04/03/dom-focus/</id>
+    <published>2020-04-03T10:49:17.000Z</published>
+    <updated>2020-04-03T11:04:01.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><code>document.activeElement</code> 这个属性始终会引用DOM中当前获得了焦点的元素。</p><p>元素获得页面的焦点的方式  </p><ol><li>页面加载<br>默认情况下，当页面刚刚加载完成时，<code>document.activeElement</code>中保存的是<code>document.body</code>元素的引用。在文档加载期间，document.activeElementd的值是null。</li><li>用户输入<br>通常是通过按<kbd>Tab</kbd>键</li><li>代码中调用focus()方法<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> button=<span class="built_in">document</span>.getElementById(<span class="string">&#x27;reset&#x27;</span>);</span><br><span class="line">button.focus();</span><br><span class="line"><span class="built_in">document</span>.activeElement===button; <span class="comment">// true</span></span><br></pre></td></tr></table></figure></li><li><code>document.hasFocus()</code>用于确定文档是否获得了焦点。通过检测文档是否获得了焦点，可以知道用户是否正在与页面交互。</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;code&gt;document.activeElement&lt;/code&gt; 这个属性始终会引用DOM中当前获得了焦点的元素。&lt;/p&gt;
+&lt;p&gt;元素获得页面的焦点的方式  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;页面加载&lt;br&gt;默认情况下，当页面刚刚加载完成时，&lt;code&gt;document.a</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>dom-summary</title>
+    <link href="http://renwanjun.github.io/2020/04/03/dom-summary/"/>
+    <id>http://renwanjun.github.io/2020/04/03/dom-summary/</id>
+    <published>2020-04-03T10:42:15.000Z</published>
+    <updated>2020-04-04T03:02:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>document部分对html节点的直接引用</p></blockquote><ul><li><p><code>document.head</code> 引用文档的<code>&lt;head&gt;</code>元素</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> head=<span class="built_in">document</span>.head || <span class="built_in">document</span>.getElementByTagName(<span class="string">&#x27;head&#x27;</span>)[<span class="number">0</span>]</span><br></pre></td></tr></table></figure></li><li><p><code>document.body</code></p></li><li><p><code>document.doctype</code></p></li><li><p><code>document.forms</code></p></li><li><p><code>document.images</code></p></li><li><p><code>document.iframes</code></p></li><li><p><code>document.activeElement</code> HTML5新增 这个属性始终会引用DOM中当前获得了焦点的元素</p></li></ul><blockquote><p>状态</p></blockquote><ul><li><code>document.compatMode</code> 判断渲染页面的模式，返回值：<br>“CSS1Compat”——标准模式<br>“BackCompat”——混杂模式</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;document部分对html节点的直接引用&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;document.head&lt;/code&gt; 引用文档的&lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;元素&lt;/p&gt;
+&lt;figure</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>DOM 节点层次</title>
+    <link href="http://renwanjun.github.io/2020/04/01/dom-tree/"/>
+    <id>http://renwanjun.github.io/2020/04/01/dom-tree/</id>
+    <published>2020-04-01T05:16:51.000Z</published>
+    <updated>2020-04-03T10:42:05.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><blockquote><blockquote></blockquote><p>elem.children和elem.childNodes的区别</p></blockquote></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;elem.children和elem.childNodes的区别&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>前端面试题汇总</title>
+    <link href="http://renwanjun.github.io/2020/03/16/web-interview-subjects/"/>
+    <id>http://renwanjun.github.io/2020/03/16/web-interview-subjects/</id>
+    <published>2020-03-16T08:49:09.000Z</published>
+    <updated>2020-03-16T08:54:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="JavaScript-基础手写题目"><a href="#JavaScript-基础手写题目" class="headerlink" title="JavaScript 基础手写题目"></a>JavaScript 基础手写题目</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;JavaScript-基础手写题目&quot;&gt;&lt;a href=&quot;#JavaScript-基础手写题目&quot; class=&quot;headerlink&quot; title=&quot;JavaScript 基础手写题目&quot;&gt;&lt;/a&gt;JavaScript 基础手写题目&lt;/h1&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>html-rendering</title>
+    <link href="http://renwanjun.github.io/2020/03/16/html-rendering/"/>
+    <id>http://renwanjun.github.io/2020/03/16/html-rendering/</id>
+    <published>2020-03-16T05:02:20.000Z</published>
+    <updated>2020-03-16T08:47:08.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="浏览器渲染基本流程"><a href="#浏览器渲染基本流程" class="headerlink" title="浏览器渲染基本流程"></a>浏览器渲染基本流程</h1><p>GUI渲染进程<br>1.解析html文本并构建DOM tree<br>2.解析CSS样式表并构建CSSOM tree<br>3.根据DOM tree和CSSOM tree构建Render tree<br>4.根据Render tree信息进行布局处理(layout)<br>5.对页面元素进行绘制(painting)</p><h3 id="解析-Parsing"><a href="#解析-Parsing" class="headerlink" title="解析(Parsing)"></a>解析(Parsing)</h3><p>解析的过程分为两个步骤：词法分析（Lexical Analysis）和语法分析(Syntax Analysis)。<br>词法分析负责将输入内容分解成一个个有效标记；而语法分析负责根据语言的语法规则分析文档的结构，从而构建解析树(Parse Tree)。通过词法分析可以将无关的字符（比如空格和换行符）分离出来。</p><h3 id="处理脚本和样式表的顺序"><a href="#处理脚本和样式表的顺序" class="headerlink" title="处理脚本和样式表的顺序"></a>处理脚本和样式表的顺序</h3><p>当浏览器碰到script脚本的时候</p><blockquote><blockquote><blockquote></blockquote><p>1.<script src="script.js"></script></p></blockquote></blockquote><p>没有 defer 或 async，浏览器会立即加载并执行指定的脚本，“立即”指的是在渲染该 script 标签之下的文档元素之前，也就是说不等待后续载入的文档元素，读到就加载并执行。</p><p>2.<script async src="script.js"></script></p><p>有 async，加载和渲染后续文档元素的过程将和 script.js 的加载与执行并行进行（异步）。</p><p>3.<script defer src="myscript.js"></script></p><p>有 defer，加载后续文档元素的过程将和 script.js 的加载并行进行（异步），但是 script.js 的执行要在所有元素解析完成之后，DOMContentLoaded 事件触发之前完成。</p><h3 id="脚本阻塞"><a href="#脚本阻塞" class="headerlink" title="脚本阻塞"></a>脚本阻塞</h3><h3 id="CSS的阻塞"><a href="#CSS的阻塞" class="headerlink" title="CSS的阻塞"></a>CSS的阻塞</h3>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;浏览器渲染基本流程&quot;&gt;&lt;a href=&quot;#浏览器渲染基本流程&quot; class=&quot;headerlink&quot; title=&quot;浏览器渲染基本流程&quot;&gt;&lt;/a&gt;浏览器渲染基本流程&lt;/h1&gt;&lt;p&gt;GUI渲染进程&lt;br&gt;1.解析html文本并构建DOM tree&lt;br&gt;2.解析CS</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript事件循环机制</title>
+    <link href="http://renwanjun.github.io/2020/03/12/js-event-loop/"/>
+    <id>http://renwanjun.github.io/2020/03/12/js-event-loop/</id>
+    <published>2020-03-12T12:53:23.000Z</published>
+    <updated>2020-04-17T03:14:18.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>希望通过这篇文章，了解到Event Loop到底是一种什么机制，浏览器和NodeJS的Event Loop又有什么区别。</p><p>从浏览器多进程到JS单线程，再到JS引擎的运行机制系统。</p><h2 id="并行处理"><a href="#并行处理" class="headerlink" title="并行处理"></a>并行处理</h2><p>在理解进程和线程之前，首先需要了解的就是并行处理，理解了并行处理之后，再理解进程和线程就会容易很多。<br>所谓并行处理就是说计算机在同一个时刻处理多个任务，比如计算下面三个表达式的值，并显示出结果：</p><pre><code>A = 1 + 1B = 2 + 2C = 3 + 3</code></pre><p>按照正常的执行流程，下面的流程会这样执行：</p><pre><code>* 任务 1 是计算 A=1+1；* 任务 2 是计算 B=2+2；* 任务 3 是计算 C=3+3；* 任务 4 是显示最后计算的结果。</code></pre><p>上面的执行流程就是单线程处理。<br>如果使用多线程处理，我们只需要分2步即可完成上面的任务，第1步：使用三个线程同时执行前三个任务；第2步，再执行第四个显示任务。</p><p>通过对比分析，你会发现用单线程执行需要四步，而使用多线程只需要两步。</p><p>因此，使用多线程并行处理能大大提升性能。</p><h2 id="进程和线程"><a href="#进程和线程" class="headerlink" title="进程和线程"></a>进程和线程</h2><p>多线程可以并行处理任务，但是线程是不能单独存在的，它是由进程来管理和启动的。</p><h3 id="进程"><a href="#进程" class="headerlink" title="进程"></a>进程</h3><p>一个进程就是一个程序的运行实例。<br>详细解释就是，启动一个程序的时候，操作系统会为该程序创建一块内存，用来存放代码、运行中的数据和一个执行任务的主线程，我们把这样的一个运行环境叫进程。进程是cpu资源分配的最小单位（系统会给他分配内存）。</p><h3 id="线程"><a href="#线程" class="headerlink" title="线程"></a>线程</h3><p>线程是依附于进程的，而进程中使用多线程来并行处理能提升元算效率。</p><h2 id="浏览器是多进程的"><a href="#浏览器是多进程的" class="headerlink" title="浏览器是多进程的"></a>浏览器是多进程的</h2><p>浏览器之所以能够运行，是因为系统给它的进程分配了资源（cpu、内存）</p><p>简单点理解，每打开一个Tab页，就相当于创建了一个独立的浏览器进程。<br><strong>注意：</strong>在这里浏览器应该也有自己的优化机制，有时候打开多个tab页后，可以在Chrome任务管理器中看到，有些进程被合并了。<br>（所以每一个Tab标签对应一个进程并不一定是绝对的）</p><h3 id="浏览器包含哪些进程"><a href="#浏览器包含哪些进程" class="headerlink" title="浏览器包含哪些进程"></a>浏览器包含哪些进程</h3><p>知道了浏览器是多进程后，再来看看它到底包含哪些进程：（为了简化理解，仅列举主要进程）</p><p>1.<strong>Browser进程</strong>：浏览器的主进程（负责协调、主控），<strong>每个浏览器只有一个</strong>。作用有负责浏览器界面显示，与用户交互，如前进，后退等。负责各个页面的管理，创建和销毁其他进程。将Renderer进程得到的内存中的Bitmap绘制到用户界面上，网络资源的管理，下载等<br>2.<strong>第三方插件进程</strong>：每种类型的插件对应一个进程，仅当使用该插件时才创建<br>3.<strong>GPU进程</strong>：最多一个，用于3D绘制等<br>4.<strong>浏览器渲染进程（浏览器内核）</strong>（Renderer进程，内部是多线程的）：默认每个Tab页面一个进程，互不影响。主要作用为页面渲染，脚本执行，事件处理等  </p><p><strong>强化记忆：在浏览器中打开一个网页相当于新起了一个进程（进程内有自己的多线程）</strong></p><h3 id="浏览器的渲染进程是多线程的"><a href="#浏览器的渲染进程是多线程的" class="headerlink" title="浏览器的渲染进程是多线程的"></a>浏览器的渲染进程是多线程的</h3><p>对于普通的前端来说，最需要要了解的就是渲染进程</p><p>1.GUI渲染进程   </p><p>负责渲染浏览器界面，解析HTML、CSS，构建DOM树和RenderObject树，布局和绘制等。<br>并且当界面需要重绘(Repainting)或由于某种操作引发回流(Reflow)时，该线程就会执行。<br>注意，**<font color="red">GUI渲染线程与JS引擎线程是互斥的</font>**，当JS引擎执行时GUI线程会被挂起（相当于被冻结了），GUI更新会被保存在一个队列中等到JS引擎空闲时立即被执行。</p><p>2.JS引擎线程<br>也称为JS内核，负责处理Javascript脚本程序（例如V8引擎）。JS引擎线程负责解析Javascript脚本，运行代码。JS引擎一直等待着任务队列中任务的到来，然后加以处理，一个Tab页（renderer进程）中无论什么时候都只有一个JS线程在运行JS程序。同样注意，GUI渲染线程与JS引擎线程是互斥的，所以如果JS执行的时间过长，这样就会造成页面的渲染不连贯，导致页面渲染加载阻塞。</p><p>3.事件触发线程</p><p>归属于浏览器而不是JS引擎，用来控制事件循环（可以理解，JS引擎自己都忙不过来，需要浏览器另开线程协助）</p><p>当JS引擎执行代码块如setTimeOut时（也可来自浏览器内核的其他线程,如鼠标点击、AJAX异步请求等），会将对应任务添加到事件线程中。当对应的事件符合触发条件被触发时，该线程会把事件添加到待处理队列的队尾，等待JS引擎的处理。</p><p>注意，由于JS的单线程关系，所以这些待处理队列中的事件都得排队等待JS引擎处理（当JS引擎空闲时才会去执行）</p><p>4.定时触发器线程</p><p>传说中的setInterval与setTimeout所在线程</p><p>浏览器定时计数器并不是由JavaScript引擎计数的,因为JavaScript引擎是单线程的, 如果处于阻塞线程状态就会影响记计时的准确。因此<strong>通过单独线程来计时并触发定时</strong>，计时完毕后，添加到事件队列中，等待JS引擎空闲后执行。</p><p>注意，W3C在HTML标准中规定，规定要求setTimeout中低于4ms的时间间隔算为4ms。</p><p>5.异步HTTP请求线程<br>XMLHttpRequest在连接后是通过浏览器新开一个线程请求，在检测到状态变更时，如果设置有回调函数，异步线程就产生状态变更事件，将这个回调再放入事件队列中。再由JavaScript引擎执行。</p><h3 id="浏览器多进程的优势TODO"><a href="#浏览器多进程的优势TODO" class="headerlink" title="浏览器多进程的优势TODO"></a>浏览器多进程的优势TODO</h3><h3 id="Browser进程和浏览器内核（Render进程）的通信过程"><a href="#Browser进程和浏览器内核（Render进程）的通信过程" class="headerlink" title="Browser进程和浏览器内核（Render进程）的通信过程"></a>Browser进程和浏览器内核（Render进程）的通信过程</h3><p>打开任务管理器并打开一个浏览器，可以看到：任务管理器中出现了两个进程（一个是主控进程，一个则是打开Tab页的渲染进程），然后在这前提下，看下整个的过程：(简化了很多)<br>Browser进程收到用户请求，首先需要获取页面内容（譬如通过网络下载资源），随后将该任务通RendererHost接口传递给Render进程。  </p><p>Renderer进程的Renderer接口收到消息，简单解释后，交给渲染线程，然后开始渲染。  </p><p>渲染线程接收请求，加载网页并渲染网页，这其中可能需要Browser进程获取资源和需要GPU进程来帮助渲染。  </p><p>当然可能会有JS线程操作DOM（这样可能会造成回流并重绘。  </p><p>最后Render进程将结果传递给Browser进程，Browser进程接收到结果并将结果绘制出来。</p><h2 id="浏览器内核中线程之间的关系"><a href="#浏览器内核中线程之间的关系" class="headerlink" title="浏览器内核中线程之间的关系"></a>浏览器内核中线程之间的关系</h2><p>GUI渲染线程与JS引擎线程互斥<br>JS阻塞页面加载</p><h2 id="宏任务和微任务"><a href="#宏任务和微任务" class="headerlink" title="宏任务和微任务"></a>宏任务和微任务</h2><p><a href="https://www.jianshu.com/p/f1e5ad3b4afb">https://www.jianshu.com/p/f1e5ad3b4afb</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;希望通过这篇文章，了解到Event Loop到底是一种什么机制，浏览器和NodeJS的Event Loop又有什么区别。&lt;/p&gt;
+&lt;p&gt;从浏</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>NPM常用命令</title>
+    <link href="http://renwanjun.github.io/2020/03/02/npm-command/"/>
+    <id>http://renwanjun.github.io/2020/03/02/npm-command/</id>
+    <published>2020-03-02T07:25:31.000Z</published>
+    <updated>2020-03-12T12:52:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="基本命令"><a href="#基本命令" class="headerlink" title="基本命令"></a>基本命令</h2><h3 id="查看"><a href="#查看" class="headerlink" title="查看"></a>查看</h3><pre><code>$ npm ls [过滤条件]</code></pre><p>使用这个命令查看所有发型包列表和它们的版本，过滤条件可选，或者几个过滤条件结合查看。</p><pre><code>$ npm ls installed // 查看已经安装的Node包$ npm ls stable    // 产看所有稳定版的发型包$ npm ls installed stable //结合过滤条件查看$ npm ls fug //按照模块名称查看$ npm ls @1.0 </code></pre><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><pre><code>$ npm install package[@过滤条件]</code></pre><p>使用这个命令可以安装一个指定的包</p><pre><code>$ npm install 包的名称 //安装指定包$ npm install 包的名称@版本号 //安装指定版本的包$ npm install 包的名称@&gt;=版本号 //结合版本号和范围安装</code></pre><h3 id="删除包"><a href="#删除包" class="headerlink" title="删除包"></a>删除包</h3><pre><code>$ npm rm sax //删除包的所有版本$ npm rm -g express //删除以全局模式安装的包</code></pre><h3 id="查看包的信息"><a href="#查看包的信息" class="headerlink" title="查看包的信息"></a>查看包的信息</h3><pre><code>$ npm view connect $ npm view connect@1.0.3 //查看特定版本的包的信息</code></pre><h2 id="package-json文件"><a href="#package-json文件" class="headerlink" title="package.json文件"></a>package.json文件</h2><h3 id="版本号"><a href="#版本号" class="headerlink" title="版本号"></a>版本号</h3><p>主版本.次版本.补丁版本号<br>例如 1.12.3<br>既然补丁版本号仅仅是修复一些程序bug,指定主版本号和次版本号，不限定补丁版本号就是一个常用的方法。如：1.23.x</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;基本命令&quot;&gt;&lt;a href=&quot;#基本命令&quot; class=&quot;headerlink&quot; title=&quot;基本命令&quot;&gt;&lt;/a&gt;基本命令&lt;/h2&gt;&lt;h3 id=&quot;查看&quot;&gt;&lt;a href=&quot;#查看&quot; class=&quot;headerlink&quot; title=&quot;查看&quot;&gt;&lt;/a&gt;查看&lt;/h</summary>
+      
+    
+    
+    
+    <category term="Tool" scheme="http://renwanjun.github.io/categories/Tool/"/>
+    
+    
+    <category term="npm" scheme="http://renwanjun.github.io/tags/npm/"/>
+    
+    <category term="command" scheme="http://renwanjun.github.io/tags/command/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>闭包</title>
+    <link href="http://renwanjun.github.io/2020/03/02/js-closure/"/>
+    <id>http://renwanjun.github.io/2020/03/02/js-closure/</id>
+    <published>2020-03-02T04:49:15.000Z</published>
+    <updated>2020-03-16T09:11:03.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="执行环境和作用域"><a href="#执行环境和作用域" class="headerlink" title="执行环境和作用域"></a>执行环境和作用域</h2><h3 id="回顾作用域链的概念："><a href="#回顾作用域链的概念：" class="headerlink" title="回顾作用域链的概念："></a>回顾作用域链的概念：</h3><p>当某个函数被调用时，会创建一个执行环境及相应的作用域链，然后使用arguments和其它命名参数的值来初始化函数的活动对象。但在作用域链中，外部函数的活动对象始终处于第二位，外部函数的外部函数的活动对象处于第三位，直到作为作用域链终点的全局执行环境。  </p><h3 id="执行环境和变量对象"><a href="#执行环境和变量对象" class="headerlink" title="执行环境和变量对象"></a>执行环境和变量对象</h3><p>每一个执行环境都有与之相对应的变量对象，全局环境的变量对象始终存在，而局部环境的变量对象在执行退出后就会自动销毁。</p><h3 id="活动对象"><a href="#活动对象" class="headerlink" title="活动对象"></a>活动对象</h3><p>就函数而言，在函数执行的时候存在；</p><blockquote><p>显然，作用域链本质上是一个指向变量对象的指针列表，它只引用但不实际的包含对象。</p></blockquote><blockquote><p>this对象是在运行时基于函数的执行环境绑定的；在全局函数中，this等于window，而当函数被作为对象的方法调用时，this等于那个对象；匿名函数的执行环境具有全局性，因此其this通常指向window。</p></blockquote><h2 id="闭包的内存泄漏"><a href="#闭包的内存泄漏" class="headerlink" title="闭包的内存泄漏"></a>闭包的内存泄漏</h2><p>闭包在IE9之前的版本中会导致一些特殊的问题。具体来说，如果闭包的作用域链中保存着一个HTML元素，那么意味着该元素将无法被销毁。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;执行环境和作用域&quot;&gt;&lt;a href=&quot;#执行环境和作用域&quot; class=&quot;headerlink&quot; title=&quot;执行环境和作用域&quot;&gt;&lt;/a&gt;执行环境和作用域&lt;/h2&gt;&lt;h3 id=&quot;回顾作用域链的概念：&quot;&gt;&lt;a href=&quot;#回顾作用域链的概念：&quot; class=&quot;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>js-object</title>
+    <link href="http://renwanjun.github.io/2020/02/28/js-object/"/>
+    <id>http://renwanjun.github.io/2020/02/28/js-object/</id>
+    <published>2020-02-28T12:56:40.000Z</published>
+    <updated>2020-03-02T03:05:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="创建对象"><a href="#创建对象" class="headerlink" title="创建对象"></a>创建对象</h2><h3 id="工厂模式"><a href="#工厂模式" class="headerlink" title="工厂模式"></a>工厂模式</h3><p>工厂模式是软件工程领域一种广为人知的设计模式，这种模式抽象了创建具体对象的过程。用函数来封装以特定接口创建对象的细节。</p><h3 id="构造函数模式"><a href="#构造函数模式" class="headerlink" title="构造函数模式"></a>构造函数模式</h3><p>可以创建自定义的构造函数，从而定义自定义对象类型的属性和方法。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;创建对象&quot;&gt;&lt;a href=&quot;#创建对象&quot; class=&quot;headerlink&quot; title=&quot;创建对象&quot;&gt;&lt;/a&gt;创建对象&lt;/h2&gt;&lt;h3 id=&quot;工厂模式&quot;&gt;&lt;a href=&quot;#工厂模式&quot; class=&quot;headerlink&quot; title=&quot;工厂模式&quot;&gt;&lt;/a</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>最佳实践</title>
+    <link href="http://renwanjun.github.io/2020/02/27/the-best-coding/"/>
+    <id>http://renwanjun.github.io/2020/02/27/the-best-coding/</id>
+    <published>2020-02-27T07:33:32.000Z</published>
+    <updated>2020-02-28T12:56:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>可维护的代码<br>保证代码性能<br>部署代码</p><h2 id="可维护性"><a href="#可维护性" class="headerlink" title="可维护性"></a>可维护性</h2><p>可理解性、直观性、可适应性、可扩展性、可调式性</p><h3 id="代码约定"><a href="#代码约定" class="headerlink" title="代码约定"></a>代码约定</h3><p>形成一套JavaScript代码的书写约定。  </p><blockquote><p>缩进和注释可以带来更可读的代码，在未来则更容易维护。</p></blockquote><h4 id="1-可读性"><a href="#1-可读性" class="headerlink" title="1. 可读性"></a>1. 可读性</h4><p>可读性与代码作为文本文件的<font color=drakred><strong>格式化方式</strong></font>有关。一方面是代码的 <font color=drakred><strong>缩进</strong></font>，当大部分人都使用同一种缩进方式时，整个项目中的代码都会更加易于阅读；一方面是<font color=drakred><strong>注释</strong></font>，通常使用若干空格而不是制表符来表示缩进，因为制表符在不同的文本编辑器中显示效果不同。</p><blockquote><p>一种常见的缩进大小为4个空格</p></blockquote><h5 id="需要进行注释的地方"><a href="#需要进行注释的地方" class="headerlink" title="需要进行注释的地方"></a>需要进行注释的地方</h5><ul><li>函数和算法<br>每一个函数和算法都应该包含注释，描述其目的和用于完成任务缩可能使用的算法。陈述实现的假设也非常重要，如参数代表什么，函数是否有返回值。</li><li>大段代码<br>用于完成单个任务的多行代码应该在前面放一个描述任务的注释。</li><li>复杂的算法<br>在注释中解释如何做到，不仅可以帮助其它浏览你的代码的人，也能在下次你自己查阅代码的时候帮助理解。</li><li>Hack<br>因为存在浏览器差异，JavaScript代码一般会包含一些hack。</li></ul><h4 id="2-变量和函数命名"><a href="#2-变量和函数命名" class="headerlink" title="2.变量和函数命名"></a>2.变量和函数命名</h4><p>命名规则</p><ul><li>变量名应为名词，如<code>car</code>。</li><li>函数名应该以动词开始，如<code>getName()</code>；返回布尔类型值的函数一般以is开头，如<code>isEnable()</code>。</li><li>变量和函数都应使用合乎逻辑的名字，不要担心长度。长度问题可以通过后处理和压缩来缓解。</li></ul><h4 id="3-变量类型透明"><a href="#3-变量类型透明" class="headerlink" title="3.变量类型透明"></a>3.变量类型透明</h4><p>因为JS中变量是松散类型，很容易就忘记变量所应包含的数据类型。合适的命名方式可以帮助理解变量的数据类型，有三种表示数据类型的方式。</p><ul><li>初始化</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;可维护的代码&lt;br&gt;保证代码性能&lt;br&gt;部署代码&lt;/p&gt;
+&lt;h2 id=&quot;可维护性&quot;&gt;&lt;a href=&quot;#可维护性&quot; class=&quot;headerlink&quot; title=&quot;可维护性&quot;&gt;&lt;/a&gt;可维护性&lt;/h2&gt;&lt;p&gt;可理解性、直观性、可适应性、可扩展性、可调式性&lt;/p&gt;
+&lt;h</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>执行环境和作用域</title>
+    <link href="http://renwanjun.github.io/2020/02/25/js-environment/"/>
+    <id>http://renwanjun.github.io/2020/02/25/js-environment/</id>
+    <published>2020-02-25T09:11:04.000Z</published>
+    <updated>2020-02-27T07:32:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><p>基本类型值：简单的数据段<br>引用类型值：可能由多个值构成的对象<br>传递参数：按值传递<br>检测类型：</p><blockquote><p><code>typeof</code> 检测基本数据类型的最佳工具<br><code>instanceof</code> 检测对象构造函数的最佳工具<br>根据规定，所有引用类型的的值都是Object的实例</p></blockquote><h1 id="执行环境与作用域"><a href="#执行环境与作用域" class="headerlink" title="执行环境与作用域"></a>执行环境与作用域</h1><p>执行环境（execution context）是JavaScript中的一个重要概念。<br>定义：执行环境定义了变量或函数有权访问的其它数据，决定了它们各自的行为。每个执行环境都有一个与之关联的<strong>变量对象</strong>，环境中定义的所有变量和函数都保存在这个对象中。</p><p>作用域链<br>定义：当代码在一个环境中执行时，会创建变量对象的一个作用域链。作用域链的前端始终都是当前执行的代码所在环境的变量对象；全局执行环境始终是作用域链中的最后一个对象。</p><h1 id="垃圾收集机制"><a href="#垃圾收集机制" class="headerlink" title="垃圾收集机制"></a>垃圾收集机制</h1><p>JavaScript具有 <em><strong>自动垃圾收集机制</strong></em> ，也就是说执行环境会负责管理代码执行过程中使用的内存。</p><p>原理：找出那些不再使用的变量，然后释放其内存。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;基本概念&quot;&gt;&lt;a href=&quot;#基本概念&quot; class=&quot;headerlink&quot; title=&quot;基本概念&quot;&gt;&lt;/a&gt;基本概念&lt;/h2&gt;&lt;p&gt;基本类型值：简单的数据段&lt;br&gt;引用类型值：可能由多个值构成的对象&lt;br&gt;传递参数：按值传递&lt;br&gt;检测类型：&lt;/p&gt;
+&lt;b</summary>
+      
+    
+    
+    
+    <category term="Web大前端" scheme="http://renwanjun.github.io/categories/Web%E5%A4%A7%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="JavaScript后花园" scheme="http://renwanjun.github.io/categories/Web%E5%A4%A7%E5%89%8D%E7%AB%AF/JavaScript%E5%90%8E%E8%8A%B1%E5%9B%AD/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript之数据类型</title>
+    <link href="http://renwanjun.github.io/2020/02/25/JavaScript%E4%B9%8B%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/"/>
+    <id>http://renwanjun.github.io/2020/02/25/JavaScript%E4%B9%8B%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</id>
+    <published>2020-02-25T02:48:05.000Z</published>
+    <updated>2021-02-26T10:22:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="先来了解一些基本概念"><a href="#先来了解一些基本概念" class="headerlink" title="先来了解一些基本概念"></a>先来了解一些基本概念</h2><ul><li>语法：ECMAScript语法大量借鉴了C及其他类C语言的语法</li><li>区分大小写：ECMAScript中的一切都区分大小写 变量、函数名和操作符</li><li>标识符：就是指变量、函数、属性的名字，或者函数的参数。标识符由字母、数字、下弧线_或一个美元符号$组成，首字母不能是数字。推荐采用驼峰大小写格式，例如firstSecond，可与内置的函数和对象名保持一致。</li><li>严格模式：ECMAScript5引入严格模式，为JavaScript定义了一种不同的解析与执行模型。要在整个脚本中启用严格模式，在顶部添加<code>&quot;use strict&quot;</code>。也可在指定函数在严格模式下执行，在函数内部的上方添加这条编译指示：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">function doSomething()&#123;</span><br><span class="line">      &quot;use strict&quot;</span><br><span class="line">      //函数体</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li>变量：松散类型变量，所谓松散类型变量就是可以保存任何类型的变量。换句话说，<strong>每个变量仅仅是一个用于保存值的占位符而已</strong>。我们不建议修改变量保存值类型。</li></ul><h1 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h1><p>五种简单数据类型: Undefined,Null,Boolean,Number和String<br>一种复杂数据类型: Object</p><h3 id="typeof操作符"><a href="#typeof操作符" class="headerlink" title="typeof操作符"></a>typeof操作符</h3><p>typeof操作符用于检测给定变量、数值字面量的数据类型</p><table><thead><tr><th>typeof操作符返回值</th><th>可能数据类型</th></tr></thead><tbody><tr><td>undefined</td><td>如果这个值未定义</td></tr><tr><td>boolean</td><td>如果这个值是布尔值</td></tr><tr><td>string</td><td>如果这个值是字符串</td></tr><tr><td>number</td><td>如果这个值是数值（12，NaN）</td></tr><tr><td>object</td><td>如果这个值是对象或者是null</td></tr><tr><td>function</td><td>如果这个值是函数</td></tr></tbody></table><blockquote><p>从技术角度讲，函数在ECMAScript中是对象不是一种数据类型。然而函数确实有些特殊的实行，因此通过typeof操作符区分函数和其他对象是有必要的。</p></blockquote><h3 id="Undefined"><a href="#Undefined" class="headerlink" title="Undefined"></a>Undefined</h3><p>值范围：只有一个特殊值undefined。<br>情况一：使用var声明一个变量但未对其初始化时，这个变量值就是undefined。</p><blockquote><p>因此没有必要把一个变量的值显示地设置成undefined</p></blockquote><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">var message;</span><br><span class="line">aler (message==undefined);// true</span><br></pre></td></tr></table></figure><p>情况二：尚未定义的变量</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">var message; // 这个变量声明之后默认取得了undefined值</span><br><span class="line"></span><br><span class="line">alert(message) // &quot;undefined&quot;</span><br><span class="line">alert(age) // 产生错误 </span><br></pre></td></tr></table></figure><blockquote><p>对于尚未声明过的变量，只能执行一项操作即实用typeof操作符检测其数据类型。（delete操作虽然不会报错，但是没有实际意义，且在strict mode下确实会报错）</p></blockquote><h3 id="Null类型"><a href="#Null类型" class="headerlink" title="Null类型"></a>Null类型</h3><p>数值范围：只有一个特殊值null<br>从逻辑角度看，null是一个空对象指针，而这正是使用typeof操作符检测null值会返回”object”的原因。</p><blockquote><p>如果定义的变量准备在将来用于保存对象，那么最好将该变量初始化为null而不是其它值。如此只要直接检查null值就可以知道相应的变量是否已经保存了一个对象的引用。</p></blockquote><p>实际上，undefined值是派生自null值的，因此：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(null==undefined); // true</span><br></pre></td></tr></table></figure><p>尽管如此，两者用途完全不同不可混淆。</p><h3 id="Boolean类型"><a href="#Boolean类型" class="headerlink" title="Boolean类型"></a>Boolean类型</h3><p>值范围：true 和 false</p><blockquote><p>注意：Boolean类型的字面值true和false是区分大小的，也就是TRUE和FALSE都不是Boolean值，只是关键字。</p></blockquote><p>转型函数：Boolean()<br>ECMAScript中所有类型的值都有与这两个Boolean值等价的值。</p><table><thead><tr><th>数据类型</th><th>转换为true的值</th><th>转换为false的值</th></tr></thead><tbody><tr><td>Boolean</td><td>true</td><td>false</td></tr><tr><td>Undefined</td><td>n/a [^1]</td><td>undefined</td></tr><tr><td>Null</td><td></td><td>null</td></tr><tr><td>String</td><td>任何非空字符串</td><td>“”空字符串</td></tr><tr><td>Number</td><td>任何非零数值</td><td>0和NaN</td></tr><tr><td>Object</td><td>任何对象</td><td>null</td></tr></tbody></table><p>[^1]:n/a(或N/A),是not application的缩写，意思是“不适用”</p><blockquote><p>这些转换规则对理解 <em><strong>流控制语句</strong></em> 自动执行相应的Boolean转换非常重要。</p></blockquote><h3 id="Number"><a href="#Number" class="headerlink" title="Number"></a>Number</h3>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;先来了解一些基本概念&quot;&gt;&lt;a href=&quot;#先来了解一些基本概念&quot; class=&quot;headerlink&quot; title=&quot;先来了解一些基本概念&quot;&gt;&lt;/a&gt;先来了解一些基本概念&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;语法：ECMAScript语法大量借鉴了C及其他类C语言的语法&lt;</summary>
+      
+    
+    
+    
+    <category term="Web大前端" scheme="http://renwanjun.github.io/categories/Web%E5%A4%A7%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="JavaScript后花园" scheme="http://renwanjun.github.io/categories/Web%E5%A4%A7%E5%89%8D%E7%AB%AF/JavaScript%E5%90%8E%E8%8A%B1%E5%9B%AD/"/>
+    
+    
+    <category term="JavaScript" scheme="http://renwanjun.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Homebrew更新太慢，切换源</title>
+    <link href="http://renwanjun.github.io/2020/02/15/Homebrew/"/>
+    <id>http://renwanjun.github.io/2020/02/15/Homebrew/</id>
+    <published>2020-02-15T07:25:00.000Z</published>
+    <updated>2020-02-15T11:44:01.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>执行<code>$ brew update</code>太慢，更换Homebrew的更新源。</p><h2 id="更新源的选择"><a href="#更新源的选择" class="headerlink" title="更新源的选择"></a>更新源的选择</h2><p>平时我们执行brew命令安装软件的时候，跟以下3个仓库地址有关：</p><ul><li>brew.git</li><li>homebrew-core.git</li><li>homebrew-bottles</li></ul><p>默认官方的更新源都是存放在GitHub上的，这也是中国大陆用户访问缓慢的原因，一般来说我们会更倾向选择国内提供的更新源，在此推荐中国科大以及清华大学提供的更新源,常见的还有阿里巴巴提供的更新源。</p><blockquote><p>GitHub源</p></blockquote><ul><li>origin <a href="https://github.com/Homebrew/brew.git">https://github.com/Homebrew/brew.git</a></li><li>origin <a href="https://github.com/Homebrew/homebrew-core.git">https://github.com/Homebrew/homebrew-core.git</a></li><li>origin <a href="https://github.com/Homebrew/homebrew-bottles">https://github.com/Homebrew/homebrew-bottles</a></li></ul><blockquote><p>中国科大源</p></blockquote><ul><li>origin <a href="https://mirrors.ustc.edu.cn/brew.git">https://mirrors.ustc.edu.cn/brew.git</a></li><li>origin <a href="https://mirrors.ustc.edu.cn/homebrew-core.git">https://mirrors.ustc.edu.cn/homebrew-core.git</a></li><li>origin <a href="https://mirrors.ustc.edu.cn/homebrew-bottles">https://mirrors.ustc.edu.cn/homebrew-bottles</a></li></ul><blockquote><p>清华大学源</p></blockquote><ul><li>origin <a href="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git">https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git</a></li><li>origin <a href="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git">https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git</a></li><li>origin <a href="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-bottles">https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-bottles</a> </li></ul><blockquote><p>阿里巴巴源</p></blockquote><ul><li>origin <a href="https://mirrors.aliyun.com/homebrew/brew.git">https://mirrors.aliyun.com/homebrew/brew.git</a></li><li>origin <a href="https://mirrors.aliyun.com/homebrew/homebrew-core.git">https://mirrors.aliyun.com/homebrew/homebrew-core.git</a></li><li>origin <a href="https://mirrors.aliyun.com/homebrew/homebrew-bottles">https://mirrors.aliyun.com/homebrew/homebrew-bottles</a></li></ul><h2 id="替换更新源"><a href="#替换更新源" class="headerlink" title="替换更新源"></a>替换更新源</h2><p>以中国科大源为例：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"># 替换brew.git:</span><br><span class="line">$ cd &quot;$(brew --repo)&quot;</span><br><span class="line"># 中国科大:</span><br><span class="line">$ git remote set-url origin https://mirrors.ustc.edu.cn/brew.git</span><br><span class="line"></span><br><span class="line"># 替换homebrew-core.git:</span><br><span class="line">$ cd &quot;$(brew --repo)/Library/Taps/homebrew/homebrew-core&quot;</span><br><span class="line"># 中国科大:</span><br><span class="line">$ git remote set-url origin https://mirrors.ustc.edu.cn/homebrew-core.git</span><br><span class="line"></span><br><span class="line"># 替换homebrew-bottles:</span><br><span class="line"># 中国科大:</span><br><span class="line">$ echo &#x27;export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles&#x27; &gt;&gt; ~/.bash_profile</span><br><span class="line">$ source ~/.bash_profile</span><br><span class="line"></span><br><span class="line"># 应用生效:</span><br><span class="line">$ brew update</span><br></pre></td></tr></table></figure><p>在更新homebrew-bottles的访问地址时，与MacOS系统的shell版本有关。<br>查看shell版本</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ echo $SHELl</span><br></pre></td></tr></table></figure><p>如果你的输出结果是 /bin/zsh，参考zsh 终端操作方式</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ echo &#x27;export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles&#x27; &gt;&gt; ~/.zshrc</span><br><span class="line">$ source ~/.zshrc</span><br></pre></td></tr></table></figure><p>如果你的输出结果是 /bin/bash，参考bash 终端操作方式</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ echo &#x27;export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles&#x27; &gt;&gt; ~/.bash_profile</span><br><span class="line">$ source ~/.bash_profile</span><br></pre></td></tr></table></figure><p>如果之前折腾过不少导致你的Homebrew有点问题，那么可以尝试使用如下方案：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"># 诊断Homebrew的问题:</span><br><span class="line">$ brew doctor</span><br><span class="line"></span><br><span class="line"># 重置brew.git设置:</span><br><span class="line">$ cd &quot;$(brew --repo)&quot;</span><br><span class="line">$ git fetch</span><br><span class="line">$ git reset --hard origin/master</span><br><span class="line"></span><br><span class="line"># homebrew-core.git同理:</span><br><span class="line">$ cd &quot;$(brew --repo)/Library/Taps/homebrew/homebrew-core&quot;</span><br><span class="line">$ git fetch</span><br><span class="line">$ git reset --hard origin/master</span><br><span class="line"></span><br><span class="line"># 应用生效:</span><br><span class="line">$ brew update  </span><br></pre></td></tr></table></figure><p>重置更新源后有时候也有换回官方GitHub源的需求</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># 重置brew.git:</span><br><span class="line">$ cd &quot;$(brew --repo)&quot;</span><br><span class="line">$ git remote set-url origin https://github.com/Homebrew/brew.git</span><br><span class="line"></span><br><span class="line"># 重置homebrew-core.git:</span><br><span class="line">$ cd &quot;$(brew --repo)/Library/Taps/homebrew/homebrew-core&quot;</span><br><span class="line">$ git remote set-url origin https://github.com/Homebrew/homebrew-core.git</span><br></pre></td></tr></table></figure><h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>1.完成更新源的更换后，我们可以使用<br><code>$ brew upgrade</code>将现有的软件进行更新至最新版本，这样便能很直接的看出速度上的变化了。最后不要忘记<code>$ brew cleanup</code>将旧有的软件安装包进行清理 </p><p>2.在更新源的有时候可能会遇到上一次更新进程还没有结束的问题：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Error: Another active Homebrew update process is already in progress.</span><br><span class="line">Please wait for it to finish or terminate it to continue.</span><br></pre></td></tr></table></figure><p>使用以下命令解除homwbrew进程锁定</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ rm -rf /usr/local/var/homebrew/locks</span><br></pre></td></tr></table></figure><p>解除锁定后再次更新</p><p>3.关闭brew每次执行命令时的自动更新，执行如下命令</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export HOMEBREW_NO_AUTO_UPDATE=true</span><br></pre></td></tr></table></figure><p>ps:如果速度还是很慢试试这个方法<br><a href="https://blog.csdn.net/weixin_34007886/article/details/91745327">切换git代理</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;执行&lt;code&gt;$ brew update&lt;/code&gt;太慢，更换Homebrew的更新源。&lt;/p&gt;
+&lt;h2 id=&quot;更新源的选择&quot;&gt;&lt;a href=&quot;#更新源的选择&quot; class=&quot;headerlink&quot; title=&quot;更新源的选择&quot;&gt;&lt;/a&gt;更新源的选择&lt;/h2&gt;&lt;p&gt;</summary>
+      
+    
+    
+    
+    <category term="Tool" scheme="http://renwanjun.github.io/categories/Tool/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>考研英语一</title>
+    <link href="http://renwanjun.github.io/2020/02/11/%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80/"/>
+    <id>http://renwanjun.github.io/2020/02/11/%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80/</id>
+    <published>2020-02-11T11:55:00.000Z</published>
+    <updated>2020-02-11T11:55:27.000Z</updated>
+    
+    
+    
+    
+    <category term="2021考研" scheme="http://renwanjun.github.io/categories/2021%E8%80%83%E7%A0%94/"/>
+    
+    
+    <category term="英语一" scheme="http://renwanjun.github.io/tags/%E8%8B%B1%E8%AF%AD%E4%B8%80/"/>
+    
+  </entry>
+  
+</feed>

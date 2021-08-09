@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>JavaScript之数据类型 | Miss Ren&#39;s BLOG</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="先来了解一些基本概念 语法：ECMAScript语法大量借鉴了C及其他类C语言的语法 区分大小写：ECMAScript中的一切都区分大小写 变量、函数名和操作符 标识符：就是指变量、函数、属性的名字，或者函数的参数。标识符由字母、数字、下弧线_或一个美元符号$组成，首字母不能是数字。推荐采用驼峰大小写格式，例如firstSecond，可与内置的函数和对象名保持一致。 严格模式：ECMAScript">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JavaScript之数据类型">
+<meta property="og:url" content="http://renwanjun.github.io/2020/02/25/JavaScript%E4%B9%8B%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/index.html">
+<meta property="og:site_name" content="Miss Ren&#39;s BLOG">
+<meta property="og:description" content="先来了解一些基本概念 语法：ECMAScript语法大量借鉴了C及其他类C语言的语法 区分大小写：ECMAScript中的一切都区分大小写 变量、函数名和操作符 标识符：就是指变量、函数、属性的名字，或者函数的参数。标识符由字母、数字、下弧线_或一个美元符号$组成，首字母不能是数字。推荐采用驼峰大小写格式，例如firstSecond，可与内置的函数和对象名保持一致。 严格模式：ECMAScript">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-02-25T02:48:05.000Z">
+<meta property="article:modified_time" content="2021-02-26T10:22:22.000Z">
+<meta property="article:author" content="renwanjun">
+<meta property="article:tag" content="JavaScript">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Miss Ren's BLOG" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Miss Ren&#39;s BLOG</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://renwanjun.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-JavaScript之数据类型" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2020/02/25/JavaScript%E4%B9%8B%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/" class="article-date">
+  <time class="dt-published" datetime="2020-02-25T02:48:05.000Z" itemprop="datePublished">2020-02-25</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Web%E5%A4%A7%E5%89%8D%E7%AB%AF/">Web大前端</a>►<a class="article-category-link" href="/categories/Web%E5%A4%A7%E5%89%8D%E7%AB%AF/JavaScript%E5%90%8E%E8%8A%B1%E5%9B%AD/">JavaScript后花园</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      JavaScript之数据类型
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h2 id="先来了解一些基本概念"><a href="#先来了解一些基本概念" class="headerlink" title="先来了解一些基本概念"></a>先来了解一些基本概念</h2><ul>
+<li>语法：ECMAScript语法大量借鉴了C及其他类C语言的语法</li>
+<li>区分大小写：ECMAScript中的一切都区分大小写 变量、函数名和操作符</li>
+<li>标识符：就是指变量、函数、属性的名字，或者函数的参数。标识符由字母、数字、下弧线_或一个美元符号$组成，首字母不能是数字。推荐采用驼峰大小写格式，例如firstSecond，可与内置的函数和对象名保持一致。</li>
+<li>严格模式：ECMAScript5引入严格模式，为JavaScript定义了一种不同的解析与执行模型。要在整个脚本中启用严格模式，在顶部添加<code>&quot;use strict&quot;</code>。也可在指定函数在严格模式下执行，在函数内部的上方添加这条编译指示：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">function doSomething()&#123;</span><br><span class="line">      &quot;use strict&quot;</span><br><span class="line">      //函数体</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li>变量：松散类型变量，所谓松散类型变量就是可以保存任何类型的变量。换句话说，<strong>每个变量仅仅是一个用于保存值的占位符而已</strong>。我们不建议修改变量保存值类型。</li>
+</ul>
+<h1 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h1><p>五种简单数据类型: Undefined,Null,Boolean,Number和String<br>一种复杂数据类型: Object</p>
+<h3 id="typeof操作符"><a href="#typeof操作符" class="headerlink" title="typeof操作符"></a>typeof操作符</h3><p>typeof操作符用于检测给定变量、数值字面量的数据类型</p>
+<table>
+<thead>
+<tr>
+<th>typeof操作符返回值</th>
+<th>可能数据类型</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>undefined</td>
+<td>如果这个值未定义</td>
+</tr>
+<tr>
+<td>boolean</td>
+<td>如果这个值是布尔值</td>
+</tr>
+<tr>
+<td>string</td>
+<td>如果这个值是字符串</td>
+</tr>
+<tr>
+<td>number</td>
+<td>如果这个值是数值（12，NaN）</td>
+</tr>
+<tr>
+<td>object</td>
+<td>如果这个值是对象或者是null</td>
+</tr>
+<tr>
+<td>function</td>
+<td>如果这个值是函数</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>从技术角度讲，函数在ECMAScript中是对象不是一种数据类型。然而函数确实有些特殊的实行，因此通过typeof操作符区分函数和其他对象是有必要的。</p>
+</blockquote>
+<h3 id="Undefined"><a href="#Undefined" class="headerlink" title="Undefined"></a>Undefined</h3><p>值范围：只有一个特殊值undefined。<br>情况一：使用var声明一个变量但未对其初始化时，这个变量值就是undefined。</p>
+<blockquote>
+<p>因此没有必要把一个变量的值显示地设置成undefined</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">var message;</span><br><span class="line">aler (message==undefined);// true</span><br></pre></td></tr></table></figure>
+<p>情况二：尚未定义的变量</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">var message; // 这个变量声明之后默认取得了undefined值</span><br><span class="line"></span><br><span class="line">alert(message) // &quot;undefined&quot;</span><br><span class="line">alert(age) // 产生错误 </span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>对于尚未声明过的变量，只能执行一项操作即实用typeof操作符检测其数据类型。（delete操作虽然不会报错，但是没有实际意义，且在strict mode下确实会报错）</p>
+</blockquote>
+<h3 id="Null类型"><a href="#Null类型" class="headerlink" title="Null类型"></a>Null类型</h3><p>数值范围：只有一个特殊值null<br>从逻辑角度看，null是一个空对象指针，而这正是使用typeof操作符检测null值会返回”object”的原因。</p>
+<blockquote>
+<p>如果定义的变量准备在将来用于保存对象，那么最好将该变量初始化为null而不是其它值。如此只要直接检查null值就可以知道相应的变量是否已经保存了一个对象的引用。</p>
+</blockquote>
+<p>实际上，undefined值是派生自null值的，因此：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(null==undefined); // true</span><br></pre></td></tr></table></figure>
+<p>尽管如此，两者用途完全不同不可混淆。</p>
+<h3 id="Boolean类型"><a href="#Boolean类型" class="headerlink" title="Boolean类型"></a>Boolean类型</h3><p>值范围：true 和 false</p>
+<blockquote>
+<p>注意：Boolean类型的字面值true和false是区分大小的，也就是TRUE和FALSE都不是Boolean值，只是关键字。</p>
+</blockquote>
+<p>转型函数：Boolean()<br>ECMAScript中所有类型的值都有与这两个Boolean值等价的值。</p>
+<table>
+<thead>
+<tr>
+<th>数据类型</th>
+<th>转换为true的值</th>
+<th>转换为false的值</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Boolean</td>
+<td>true</td>
+<td>false</td>
+</tr>
+<tr>
+<td>Undefined</td>
+<td>n/a [^1]</td>
+<td>undefined</td>
+</tr>
+<tr>
+<td>Null</td>
+<td></td>
+<td>null</td>
+</tr>
+<tr>
+<td>String</td>
+<td>任何非空字符串</td>
+<td>“”空字符串</td>
+</tr>
+<tr>
+<td>Number</td>
+<td>任何非零数值</td>
+<td>0和NaN</td>
+</tr>
+<tr>
+<td>Object</td>
+<td>任何对象</td>
+<td>null</td>
+</tr>
+</tbody></table>
+<p>[^1]:n/a(或N/A),是not application的缩写，意思是“不适用”</p>
+<blockquote>
+<p>这些转换规则对理解 <em><strong>流控制语句</strong></em> 自动执行相应的Boolean转换非常重要。</p>
+</blockquote>
+<h3 id="Number"><a href="#Number" class="headerlink" title="Number"></a>Number</h3>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://renwanjun.github.io/2020/02/25/JavaScript%E4%B9%8B%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/" data-id="cks456wqd000d5bz623ct44p7" data-title="JavaScript之数据类型" class="article-share-link">Share</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JavaScript/" rel="tag">JavaScript</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2020/02/25/js-environment/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          执行环境和作用域
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2020/02/15/Homebrew/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Homebrew更新太慢，切换源</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/2021%E8%80%83%E7%A0%94/">2021考研</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Tool/">Tool</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Web%E5%A4%A7%E5%89%8D%E7%AB%AF/">Web大前端</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Web%E5%A4%A7%E5%89%8D%E7%AB%AF/CSS%E4%B8%96%E7%95%8C/">CSS世界</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Web%E5%A4%A7%E5%89%8D%E7%AB%AF/JavaScript%E5%90%8E%E8%8A%B1%E5%9B%AD/">JavaScript后花园</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Web%E5%A4%A7%E5%89%8D%E7%AB%AF/Tool/">Tool</a></li></ul></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/JavaScript/" rel="tag">JavaScript</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/command/" rel="tag">command</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/css/" rel="tag">css</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/npm/" rel="tag">npm</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%8B%B1%E8%AF%AD%E4%B8%80/" rel="tag">英语一</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/JavaScript/" style="font-size: 20px;">JavaScript</a> <a href="/tags/command/" style="font-size: 10px;">command</a> <a href="/tags/css/" style="font-size: 10px;">css</a> <a href="/tags/npm/" style="font-size: 10px;">npm</a> <a href="/tags/%E8%8B%B1%E8%AF%AD%E4%B8%80/" style="font-size: 10px;">英语一</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/08/">八月 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/02/">二月 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">四月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">三月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">二月 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2021/08/09/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2021/02/26/es6-generator/">es6-generator</a>
+          </li>
+        
+          <li>
+            <a href="/2021/02/26/es6-promise/">Promise对象</a>
+          </li>
+        
+          <li>
+            <a href="/2020/04/21/browser-xnyh/">browser-xnyh</a>
+          </li>
+        
+          <li>
+            <a href="/2020/04/17/h5-native-drag-drop/">H5原生拖放</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2021 renwanjun<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>

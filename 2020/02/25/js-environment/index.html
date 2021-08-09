@@ -4,13 +4,17 @@
   <meta charset="utf-8">
   
   
-  <title>Archives: 2021 | Miss Ren&#39;s BLOG</title>
+  <title>执行环境和作用域 | Miss Ren&#39;s BLOG</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Miss Ren&#39;s BLOG">
-<meta property="og:url" content="http://renwanjun.github.io/archives/2021/index.html">
+  <meta name="description" content="基本概念基本类型值：简单的数据段引用类型值：可能由多个值构成的对象传递参数：按值传递检测类型：  typeof 检测基本数据类型的最佳工具instanceof 检测对象构造函数的最佳工具根据规定，所有引用类型的的值都是Object的实例  执行环境与作用域执行环境（execution context）是JavaScript中的一个重要概念。定义：执行环境定义了变量或函数有权访问的其它数据，决定了它">
+<meta property="og:type" content="article">
+<meta property="og:title" content="执行环境和作用域">
+<meta property="og:url" content="http://renwanjun.github.io/2020/02/25/js-environment/index.html">
 <meta property="og:site_name" content="Miss Ren&#39;s BLOG">
+<meta property="og:description" content="基本概念基本类型值：简单的数据段引用类型值：可能由多个值构成的对象传递参数：按值传递检测类型：  typeof 检测基本数据类型的最佳工具instanceof 检测对象构造函数的最佳工具根据规定，所有引用类型的的值都是Object的实例  执行环境与作用域执行环境（execution context）是JavaScript中的一个重要概念。定义：执行环境定义了变量或函数有权访问的其它数据，决定了它">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-02-25T09:11:04.000Z">
+<meta property="article:modified_time" content="2020-02-27T07:32:59.000Z">
 <meta property="article:author" content="renwanjun">
 <meta name="twitter:card" content="summary">
   
@@ -69,77 +73,73 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2021" class="archive-year">2021</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2021/08/09/hello-world/" class="archive-article-date">
-  <time class="dt-published" datetime="2021-08-09T01:50:00.583Z" itemprop="datePublished">8月 9</time>
+        <section id="main"><article id="post-js-environment" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2020/02/25/js-environment/" class="article-date">
+  <time class="dt-published" datetime="2020-02-25T09:11:04.000Z" itemprop="datePublished">2020-02-25</time>
 </a>
-      
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Web%E5%A4%A7%E5%89%8D%E7%AB%AF/">Web大前端</a>►<a class="article-category-link" href="/categories/Web%E5%A4%A7%E5%89%8D%E7%AB%AF/JavaScript%E5%90%8E%E8%8A%B1%E5%9B%AD/">JavaScript后花园</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/08/09/hello-world/">Hello World</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      执行环境和作用域
     </h1>
   
 
-    </header>
-  </div>
-</article>
-  
+      </header>
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2021/02/26/es6-generator/" class="archive-article-date">
-  <time class="dt-published" datetime="2021-02-26T10:39:18.000Z" itemprop="datePublished">2月 26</time>
-</a>
+    <div class="e-content article-entry" itemprop="articleBody">
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/02/26/es6-generator/">es6-generator</a>
-    </h1>
-  
+        <h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><p>基本类型值：简单的数据段<br>引用类型值：可能由多个值构成的对象<br>传递参数：按值传递<br>检测类型：</p>
+<blockquote>
+<p><code>typeof</code> 检测基本数据类型的最佳工具<br><code>instanceof</code> 检测对象构造函数的最佳工具<br>根据规定，所有引用类型的的值都是Object的实例</p>
+</blockquote>
+<h1 id="执行环境与作用域"><a href="#执行环境与作用域" class="headerlink" title="执行环境与作用域"></a>执行环境与作用域</h1><p>执行环境（execution context）是JavaScript中的一个重要概念。<br>定义：执行环境定义了变量或函数有权访问的其它数据，决定了它们各自的行为。每个执行环境都有一个与之关联的<strong>变量对象</strong>，环境中定义的所有变量和函数都保存在这个对象中。</p>
+<p>作用域链<br>定义：当代码在一个环境中执行时，会创建变量对象的一个作用域链。作用域链的前端始终都是当前执行的代码所在环境的变量对象；全局执行环境始终是作用域链中的最后一个对象。</p>
+<h1 id="垃圾收集机制"><a href="#垃圾收集机制" class="headerlink" title="垃圾收集机制"></a>垃圾收集机制</h1><p>JavaScript具有 <em><strong>自动垃圾收集机制</strong></em> ，也就是说执行环境会负责管理代码执行过程中使用的内存。</p>
+<p>原理：找出那些不再使用的变量，然后释放其内存。</p>
 
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2021/02/26/es6-promise/" class="archive-article-date">
-  <time class="dt-published" datetime="2021-02-26T10:10:07.000Z" itemprop="datePublished">2月 26</time>
-</a>
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/02/26/es6-promise/">Promise对象</a>
-    </h1>
-  
-
-    </header>
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://renwanjun.github.io/2020/02/25/js-environment/" data-id="cks456wqg000q5bz6g5h446ow" data-title="执行环境和作用域" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
   </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2020/02/27/the-best-coding/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          最佳实践
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2020/02/25/JavaScript%E4%B9%8B%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">JavaScript之数据类型</div>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
 
 
 </section>

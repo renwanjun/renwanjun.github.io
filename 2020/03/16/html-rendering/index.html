@@ -4,13 +4,17 @@
   <meta charset="utf-8">
   
   
-  <title>Archives: 2021 | Miss Ren&#39;s BLOG</title>
+  <title>html-rendering | Miss Ren&#39;s BLOG</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Miss Ren&#39;s BLOG">
-<meta property="og:url" content="http://renwanjun.github.io/archives/2021/index.html">
+  <meta name="description" content="浏览器渲染基本流程GUI渲染进程1.解析html文本并构建DOM tree2.解析CSS样式表并构建CSSOM tree3.根据DOM tree和CSSOM tree构建Render tree4.根据Render tree信息进行布局处理(layout)5.对页面元素进行绘制(painting) 解析(Parsing)解析的过程分为两个步骤：词法分析（Lexical Analysis）和语法分析(">
+<meta property="og:type" content="article">
+<meta property="og:title" content="html-rendering">
+<meta property="og:url" content="http://renwanjun.github.io/2020/03/16/html-rendering/index.html">
 <meta property="og:site_name" content="Miss Ren&#39;s BLOG">
+<meta property="og:description" content="浏览器渲染基本流程GUI渲染进程1.解析html文本并构建DOM tree2.解析CSS样式表并构建CSSOM tree3.根据DOM tree和CSSOM tree构建Render tree4.根据Render tree信息进行布局处理(layout)5.对页面元素进行绘制(painting) 解析(Parsing)解析的过程分为两个步骤：词法分析（Lexical Analysis）和语法分析(">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-03-16T05:02:20.000Z">
+<meta property="article:modified_time" content="2020-03-16T08:47:08.000Z">
 <meta property="article:author" content="renwanjun">
 <meta name="twitter:card" content="summary">
   
@@ -69,77 +73,76 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2021" class="archive-year">2021</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2021/08/09/hello-world/" class="archive-article-date">
-  <time class="dt-published" datetime="2021-08-09T01:50:00.583Z" itemprop="datePublished">8月 9</time>
+        <section id="main"><article id="post-html-rendering" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2020/03/16/html-rendering/" class="article-date">
+  <time class="dt-published" datetime="2020-03-16T05:02:20.000Z" itemprop="datePublished">2020-03-16</time>
 </a>
-      
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/08/09/hello-world/">Hello World</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      html-rendering
     </h1>
   
 
-    </header>
-  </div>
-</article>
-  
+      </header>
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2021/02/26/es6-generator/" class="archive-article-date">
-  <time class="dt-published" datetime="2021-02-26T10:39:18.000Z" itemprop="datePublished">2月 26</time>
-</a>
+    <div class="e-content article-entry" itemprop="articleBody">
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/02/26/es6-generator/">es6-generator</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2021/02/26/es6-promise/" class="archive-article-date">
-  <time class="dt-published" datetime="2021-02-26T10:10:07.000Z" itemprop="datePublished">2月 26</time>
-</a>
+        <h1 id="浏览器渲染基本流程"><a href="#浏览器渲染基本流程" class="headerlink" title="浏览器渲染基本流程"></a>浏览器渲染基本流程</h1><p>GUI渲染进程<br>1.解析html文本并构建DOM tree<br>2.解析CSS样式表并构建CSSOM tree<br>3.根据DOM tree和CSSOM tree构建Render tree<br>4.根据Render tree信息进行布局处理(layout)<br>5.对页面元素进行绘制(painting)</p>
+<h3 id="解析-Parsing"><a href="#解析-Parsing" class="headerlink" title="解析(Parsing)"></a>解析(Parsing)</h3><p>解析的过程分为两个步骤：词法分析（Lexical Analysis）和语法分析(Syntax Analysis)。<br>词法分析负责将输入内容分解成一个个有效标记；而语法分析负责根据语言的语法规则分析文档的结构，从而构建解析树(Parse Tree)。通过词法分析可以将无关的字符（比如空格和换行符）分离出来。</p>
+<h3 id="处理脚本和样式表的顺序"><a href="#处理脚本和样式表的顺序" class="headerlink" title="处理脚本和样式表的顺序"></a>处理脚本和样式表的顺序</h3><p>当浏览器碰到script脚本的时候</p>
+<blockquote>
+<blockquote>
+<blockquote>
+</blockquote>
+<p>1.<script src="script.js"></script></p>
+</blockquote>
+</blockquote>
+<p>没有 defer 或 async，浏览器会立即加载并执行指定的脚本，“立即”指的是在渲染该 script 标签之下的文档元素之前，也就是说不等待后续载入的文档元素，读到就加载并执行。</p>
+<p>2.<script async src="script.js"></script></p>
+<p>有 async，加载和渲染后续文档元素的过程将和 script.js 的加载与执行并行进行（异步）。</p>
+<p>3.<script defer src="myscript.js"></script></p>
+<p>有 defer，加载后续文档元素的过程将和 script.js 的加载并行进行（异步），但是 script.js 的执行要在所有元素解析完成之后，DOMContentLoaded 事件触发之前完成。</p>
+<h3 id="脚本阻塞"><a href="#脚本阻塞" class="headerlink" title="脚本阻塞"></a>脚本阻塞</h3><h3 id="CSS的阻塞"><a href="#CSS的阻塞" class="headerlink" title="CSS的阻塞"></a>CSS的阻塞</h3>
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/02/26/es6-promise/">Promise对象</a>
-    </h1>
-  
-
-    </header>
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://renwanjun.github.io/2020/03/16/html-rendering/" data-id="cks456wqg000r5bz67vnrg70f" data-title="html-rendering" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
   </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2020/03/16/web-interview-subjects/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          前端面试题汇总
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2020/03/12/js-event-loop/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">JavaScript事件循环机制</div>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
 
 
 </section>
